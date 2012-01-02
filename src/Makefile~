@@ -11,7 +11,7 @@ all: ptatool
 ptatool: main.o Attack.o Attackdex.o functions.o Master.o parsers.o Pkmn.o Pokedex.o Pokemon.o Visual.o
 	mkdir -p $(BINDIR)
 	@echo "Compiling PTA Tool Executable"
-	$(CC) $(WXWFLAG) main.o Attack.o Attackdex.o functions.o Master.o parsers.o Pkmn.o Pokedex.o Pokemon.o Visual.o $(OUTPUT) $(WXWLIB)
+	$(CC) $(WXWFLAG) main.o Attack.o Attackdex.o functions.o Master.o parsers.o Pkmn.o Pokedex.o Pokemon.o Visual.o $(OUTPUT) $(WXWLIBS)
 	@echo "Compilation Complete :)"
 
 main.o: main.cpp
