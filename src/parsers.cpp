@@ -41,8 +41,6 @@ void parsePokemon(Pokedex &pokedex){
             getline(f,line);
         }
 
-		std::cout<<poke.name<<std::endl;
-
 		if(line.substr(0,7) == "Jp_Name"){
 			poke.jpname = line.substr(9,line.size());
             getline(f,line);
@@ -58,18 +56,6 @@ void parsePokemon(Pokedex &pokedex){
 			poke.natnum = line.substr(9,line.size());
             getline(f,line);
 		}
-
-		/* no esta mas, lo cambiaron por PTA_Num y Nat_Num
-        if(line.substr(0,6) == "Number"){
-            std::string l = line.substr(8,line.size());
-            n = std::atoi(l.c_str());
-            if(n < MIN_POKE or n >= MAX_POKE){
-                std::cout<<"Error reading number!"<<std::endl;
-            }
-            poke.number = n;
-            getline(f,line);
-        }*/
-
 
         while(line.substr(0,4) == "Type"){
             poke.type.push_back(line.substr(8,line.size()));

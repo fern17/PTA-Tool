@@ -10315,8 +10315,8 @@ Tutor_Moves: Bug Bite, Snore, String Shot
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Wormadam Plant Form
+Jp_Name: Minomadamu
 PTA_Num: 253
 Type_1: Bug
 Type_2: Grass
@@ -10326,8 +10326,8 @@ HeightClass: Small
 WeightUS: 14.3 lbs.
 WeightSI: 6.5kg
 WeightClass: 1
-Classification: 
-Dex_Text: 
+Classification: Bagworm Pokemon
+Dex_Text: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
 Diet: Herbivore
 Habitat: Forest, Rainforest
 Gender: 0% M / 100% F
@@ -10355,8 +10355,8 @@ Tutor_Moves: Bug Bite, Bullet Seed, Endeavor, Giga Drain, Natural Gift, Seed Bom
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Wormadam Sandy Form
+Jp_Name: Minomadamu
 PTA_Num: 253
 Type_1: Bug
 Type_2: Ground
@@ -10366,8 +10366,8 @@ HeightClass: Small
 WeightUS: 14.3 lbs.
 WeightSI: 6.5kg
 WeightClass: 1
-Classification: 
-Dex_Text: 
+Classification: Bagworm Pokemon
+Dex_Text: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
 Diet: Herbivore
 Habitat: Desert, Mountain
 Gender: 0% M / 100% F
@@ -10395,8 +10395,8 @@ Tutor_Moves: Bug Bite, Earth Power, Endeavor, Mud-Slap, Natural Gift, Signal Bea
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Wormadam Trash Form
+Jp_Name: Minomadamu
 PTA_Num: 253
 Type_1: Bug
 Type_2: Steel
@@ -10406,8 +10406,8 @@ HeightClass: Small
 WeightUS: 14.3 lbs.
 WeightSI: 6.5kg
 WeightClass: 1
-Classification: 
-Dex_Text: 
+Classification: Bagworm Pokemon
+Dex_Text: When evolving, its body takes in surrounding materials. As a result, there are many body variations.
 Diet: Herbivore
 Habitat: Urban
 Gender: 0% M / 100% F

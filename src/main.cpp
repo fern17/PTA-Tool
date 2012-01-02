@@ -9,7 +9,7 @@ int main(){
 
     parsePokemon(Master::getInstance()->dexter);
     //parseAttack(Master::getInstance()->atkdex);
-    Pkmn pika("Caterpie",16);
+    Pkmn pika("Wormadam",55);
 
     pika.print();
 
