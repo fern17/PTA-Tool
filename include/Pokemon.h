@@ -24,14 +24,21 @@ public:
     static const std::string DEFAULT_NAME;
 
     unsigned int number;
+    std::string jpname;
+    std::string ptanum;
+    std::string natnum;
     std::string name;
     std::vector<std::string> type;
-    std::string h;								//full height
+    std::string hSI;
+    std::string hUS;
     float f_height;								//meters, comparator
     std::string heightClass;					//Small, Medium, Large, Huge or Gigantic
-    std::string w;								//full
+    std::string wSI;
+    std::string wUS;
     float f_weight; 							//kilograms, comparator
-    unsigned int weightClass; 					//1 to 6
+    std::string weightClass; 					//1 to 6
+    std::string dexText;
+    std::string classification;
     std::vector<std::string> diet;
     std::vector<std::string> habitat;
     std::string g; 								// x% M / y% F

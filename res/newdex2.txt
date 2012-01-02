@@ -4020,8 +4020,8 @@ Gender: No Gender
 Egg_Group: Mineral
 Hatch_Rate: 10 Days
 Stage_1: Porygon
-Stage_2: Porygon2 Holding Minimum UpGrade 10
-Stage_3: PorygonZ Holding Minimum
+Stage_2: Porygon2 Holding UpGrade Minimum  10
+Stage_3: PorygonZ Holding DubiousDisk Minimum 25
 Base_Stats: 7, 6, 7, 9, 8, 4
 Capabilities: Overland 6, Surface 4, Sky 3, Jump 2, Power 1, Intelligence 4, Wired
 Basic_Abilities: Last Chance / Trace / Download
@@ -4061,8 +4061,8 @@ Habitat: Urban
 Gender: No Gender
 Egg_Group: Mineral
 Stage_1: Porygon
-Stage_2: Porygon2 Holding Minimum UpGrade 10
-Stage_3: PorygonZ Holding Minimum
+Stage_2: Porygon2 Holding UpGrade Minimum 10
+Stage_3: PorygonZ Holding DubiousDisk Minimum 25
 Base_Stats: 9, 8, 9, 11, 10, 6
 Capabilities: Overland 8, Surface 8, Sky 6, Jump 3, Power 1, Intelligence 5, Wired
 Basic_Abilities: Last Chance / Trace / Download
@@ -4084,9 +4084,10 @@ Tutor_Moves: Conversion, Conversion2, Defense Curl, Double-Edge, Gravity, Icy Wi
 
 &&
 
-Name: 
-Jp_Name: 
+Name: PorygonZ
+Jp_Name: PorygonZ
 PTA_Num: 101
+Nat_Num: 474
 Type_1: Normal
 HeightUS: 2' 11"
 HeightSI: 0.9m
@@ -4094,14 +4095,15 @@ HeightClass: Small
 WeightUS: 75 lbs.
 WeightSI: 34kg
 WeightClass: 3
-Classification: 
-Dex_Text: 
+Classification: Virtual Pokemon
+Dex_Text: Its programming was modified to enable work in alien dimensions. It did not work as planned.
+Diet: Nullivore
 Habitat: Urban
 Gender: No Gender
 Egg_Group: Mineral
 Stage_1: Porygon
-Stage_2: Porygon2 Holding Minimum UpGrade 10
-Stage_3: PorygonZ Holding Minimum
+Stage_2: Porygon2 Holding UpGrade Minimum 10
+Stage_3: PorygonZ Holding DubiousDisk Minimum 25
 Base_Stats: 9, 8, 7, 14, 8, 9
 Capabilities: Overland 9, Surface 9, Sky 7, Jump 3, Power 1, Intelligence 6, Wired
 Basic_Abilities: Last Chance / Trace / Download / Adaptability
@@ -15511,13 +15513,47 @@ TM_List: A4, 05, 06, 08, 10, 11, 12, 15, 17, 21, 22, 26, 27, 28, 29, 31, 32, 38,
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Darmanitan Zen
+Jp_Name: Hihidaruma Zen
 PTA_Num: 375
+Nat_Num: 555
 Type_1: Fire
 Type_2: Psychic
+HeightUS: 4' 3"
+HeightSI: 1.3m
+HeightClass: Medium
+WeightUS: 204.8 lbs.
+WeightSI: 92.9kg
+WeightClass: 4
+Classification: Blazing Pokemon
+Dex_Text: Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.
+Diet: Omnivore
+Habitat: Cave, Desert, Mountain
+Gender: 50% M / 50% F
+Egg_Group: Field
+Stage_1: Darumaka
+Stage_2: Darmanitan Minimum 35
 Base_Stats: 11, 3, 11, 14, 11, 6
 Capabilities: Overland 4, Surface 2, Jump 1, Power 2, Intelligence 6, Telekinetic, Telepath, Firestarter
+Basic_Abilities: Blaze / Mind Mold / Sheer Force / Reckless
+High_Abilities: Zen Mode
+3: Rollout
+6: Incinerate
+9: Rage
+11: Fire Fang
+14: Headbutt
+17: Swagger
+19: Facade
+22: Fire Punch
+25: Work Up
+27: Thrash
+30: Belly Drum
+33: Flare Blitz
+35: Hammer Arm
+39: Taunt
+47: Superpower
+54: Overheat
+TM_List: A4, 05, 06, 08, 10, 11, 12, 15, 17, 21, 22, 26, 27, 28, 29, 31, 32, 38, 39, 41, 42, 43, 44, 45, 46, 48, 50, 52, 56, 59, 66, 68, 71, 74, 78, 80, 83, 86, 87, 90, 94
 
 &&
 
@@ -22352,8 +22388,8 @@ Egg_Moves: Astonish, Curse, Earth Power, Pain Split, Shock Wave, Sleep Talk, Spa
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Rotom
+Jp_Name: Rotomu
 PTA_Num: 543
 Type_1: Electric
 Type_2: Ghost
@@ -22363,8 +22399,8 @@ HeightClass: Small
 WeightUS: 0.7 lbs.
 WeightSI: 0.3kg
 WeightClass: 1
-Classification: 
-Dex_Text: 
+Classification: Plasma Pokemon
+Dex_Text: Its electric-like body can enter some kinds of machines and take control in order to make mischief.
 Diet: Ergovore
 Habitat: Urban
 Gender: No Gender
@@ -22390,14 +22426,41 @@ Tutor_Moves: Dark Pulse, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Snatch
 
 &&
 
-Name: 
-Jp_Name: 
+Name: Rotom Mechanical
+Jp_Name: Rotomu
 PTA_Num: 543
 Type_1: Electric
 Type_2: Variable
+HeightUS: 1' 0"
+HeightSI: 0.3m
+HeightClass: Small
+WeightUS: 0.7 lbs.
+WeightSI: 0.3kg
+WeightClass: 1
+Classification: Plasma Pokemon
+Dex_Text: Its electric-like body can enter some kinds of machines and take control in order to make mischief.
+Diet: Ergovore
+Habitat: Urban
+Gender: No Gender
+Egg_Group: Indeterminate
+Hatch_Rate: 10 Days
+Stage_1: Rotom
 Base_Stats: 5, 7, 11, 11, 11, 9
+Capabilities: Overland 8, Surface 2, Sky 6, Jump 4, Power 1, Intelligence 4, Glow, Invisibility, Phasing, Wired, Zapper
 Basic_Abilities: Overcharge / Haunt / Levitate / Pressure
 High_Abilities: Motor Drive
+Moves: Astonish, Confuse Ray, Thunder Wave, Thundershock
+8: Uproar
+15: Double Team
+22: Shock Wave
+29: Ominous Wind
+36: Substitute
+43: Electro Ball
+50: Hex
+57: Charge
+64: Discharge
+TM_List: 06, 10, 11, 16, 17, 18, 19, 21, 24, 25, 27, 30, 32, 33, 42, 44, 46, 48, 57, 70, 72, 73, 77, 85, 87, 90
+Tutor_Moves: Dark Pulse, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Snatch, Snore, Spite, Sucker Punch, Swift, Trick
 
 &&
 

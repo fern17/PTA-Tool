@@ -6,8 +6,8 @@
 bool Master::instanceFlag = false;
 Master * Master::master = NULL;
 
-std::string Master::EXP_FILE = "expchart.txt";
-std::string Master::NATURE_FILE = "natures.txt";
+std::string Master::EXP_FILE = "res/expchart.txt";
+std::string Master::NATURE_FILE = "res/natures.txt";
 
 const unsigned int Master::NATURE_MAX;
 

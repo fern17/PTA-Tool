@@ -14,8 +14,8 @@ void Pokemon::print(){
         std::cout<<type[i]<<" ";
     }
     std::cout<<std::endl;
-    std::cout<<h<<std::endl;
-    std::cout<<w<<std::endl;
+    std::cout<<hSI<<std::endl;
+    std::cout<<wSI<<std::endl;
     for(unsigned int i = 0; i < diet.size();i++){
         std::cout<<diet[i]<<";";
     }
@@ -172,7 +172,9 @@ void Pokemon::fixGender(){
     }
 }
 
+//TODO reveer
 void Pokemon::fixHeight(){
+	/*
     if(h.size() == 0){
         f_height = 1;
         heightClass = "Medium";
@@ -187,10 +189,11 @@ void Pokemon::fixHeight(){
     posn = h.find(')');
 
     heightClass = h.substr(pos+1,h.size()-1);
+    */
 }
 
 void Pokemon::fixWeight(){
-
+/*
     if(w.size() == 0){
         f_weight = 1;
         weightClass = 1;
@@ -206,6 +209,7 @@ void Pokemon::fixWeight(){
     posn = w.find(')');
 
     weightClass = atoi(w.substr(pos+1,h.size()-1).c_str());
+    */
 }
 
 void Pokemon::splitStr(std::string str, char c, std::vector<std::string> &v){

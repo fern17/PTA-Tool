@@ -17,7 +17,7 @@
 #define MAX_POKE 649
 
 void parsePokemon(Pokedex &pokedex){
-    std::string filename = "newdex.txt";
+    std::string filename = "res/newdex2.txt";
     int n;
 
     std::fstream f(filename.c_str());
@@ -41,7 +41,25 @@ void parsePokemon(Pokedex &pokedex){
             getline(f,line);
         }
 
+		std::cout<<poke.name<<std::endl;
 
+		if(line.substr(0,7) == "Jp_Name"){
+			poke.jpname = line.substr(9,line.size());
+            getline(f,line);
+		}
+
+		if(line.substr(0,7) == "PTA_Num"){
+			poke.ptanum = line.substr(9,line.size());
+			poke.number = std::atoi(poke.ptanum.c_str());
+            getline(f,line);
+		}
+
+		if(line.substr(0,7) == "Nat_Num"){
+			poke.natnum = line.substr(9,line.size());
+            getline(f,line);
+		}
+
+		/* no esta mas, lo cambiaron por PTA_Num y Nat_Num
         if(line.substr(0,6) == "Number"){
             std::string l = line.substr(8,line.size());
             n = std::atoi(l.c_str());
@@ -50,7 +68,7 @@ void parsePokemon(Pokedex &pokedex){
             }
             poke.number = n;
             getline(f,line);
-        }
+        }*/
 
 
         while(line.substr(0,4) == "Type"){
@@ -58,17 +76,48 @@ void parsePokemon(Pokedex &pokedex){
             getline(f,line);
         }
 
-        if(line.substr(0,6) == "Height"){
-            poke.h = line.substr(8,line.size());
+
+        if(line.substr(0,8) == "HeightUS"){
+            poke.hUS = line.substr(10,line.size());
+            getline(f,line);
+        }
+
+        if(line.substr(0,8) == "HeightSI"){
+            poke.hSI = line.substr(10,line.size());
+            getline(f,line);
+        }
+
+        if(line.substr(0,11) == "HeightClass"){
+            poke.heightClass = line.substr(13,line.size());
             getline(f,line);
         }
 
 
-        if(line.substr(0,6) == "Weight"){
-            poke.w = line.substr(8,line.size());
+		if(line.substr(0,8) == "WeightUS"){
+            poke.wUS = line.substr(10,line.size());
             getline(f,line);
         }
 
+        if(line.substr(0,8) == "WeightSI"){
+            poke.wSI = line.substr(10,line.size());
+            getline(f,line);
+        }
+
+        if(line.substr(0,11) == "WeightClass"){
+            poke.weightClass = line.substr(13,line.size());
+            getline(f,line);
+        }
+
+
+        if(line.substr(0,14) == "Classification"){
+            poke.classification = line.substr(16,line.size());
+            getline(f,line);
+        }
+
+        if(line.substr(0,8) == "Dex_Text"){
+            poke.dexText = line.substr(10,line.size());
+            getline(f,line);
+        }
 
         if(line.substr(0,4) == "Diet"){
             poke.diet.push_back(line.substr(6,line.size()));
@@ -158,7 +207,6 @@ void parsePokemon(Pokedex &pokedex){
         }
 
 
-
         if(poke.name != Pokemon::DEFAULT_NAME){
             poke.fix();
             //poke.print();
@@ -172,7 +220,7 @@ void parsePokemon(Pokedex &pokedex){
 
 void parseAttack(Attackdex &attackdex){
 
-    std::string filename = "movelist.txt";
+    std::string filename = "res/movelist.txt";
 
     std::fstream f(filename.c_str());
     if(!f.is_open()){

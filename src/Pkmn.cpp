@@ -5,7 +5,7 @@
 #include "functions.h"
 
 Pkmn::Pkmn(std::string name,unsigned int level, unsigned int mode){
-    poke = Master::getInstance()->dexter.getPoke(Upper(name));
+    poke = Master::getInstance()->dexter.getPoke(name);
     if(level > 100){
         std::cout<<"Level over 100. Level = 100"<<std::endl;
         level = 100;
